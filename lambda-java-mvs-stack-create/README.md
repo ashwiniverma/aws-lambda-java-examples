@@ -5,6 +5,6 @@ This is an example to create the stack using aws lambda java apis. Based one the
 
 Value of ${target.env} can be dev or prod, based on this parameter the properties file will be loaded.
 
-maven shade plugin is used to create the jar will all the dependencies included.
+maven shade plugin is used to create the jar, which will include all the dependencies.
 
 While registering the function to AWS lambda use - com.example.aws.lambda.handler.StackCreateExample::handleRequest , as the handler method description.
